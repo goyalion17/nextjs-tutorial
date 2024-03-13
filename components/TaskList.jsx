@@ -8,9 +8,10 @@ const TaskList = async () => {
       createdAt: "desc",
     },
   });
-  if (tasks.length === 0)
-    <h2 className="mt-8 font-medium text-lg">No tasks to show...</h2>;
-    
+  if (tasks.length === 0) {
+    return <h2 className="mt-8 font-medium text-lg">No tasks to show...</h2>;
+  }
+
   return (
     <ul className="mt-8">
       {tasks.map((task) => (
