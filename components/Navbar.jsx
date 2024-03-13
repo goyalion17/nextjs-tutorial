@@ -1,10 +1,9 @@
 import Link from "next/link";
-import React from "react";
 
 const links = [
   { href: "/client", label: "client" },
   { href: "/drinks", label: "drinks" },
-  { href: "/query", label: "query" },
+  { href: "/prisma-example", label: "prisma" },
   { href: "/tasks", label: "tasks" },
 ];
 
