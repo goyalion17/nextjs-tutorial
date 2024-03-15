@@ -27,10 +27,10 @@ const TaskForm = () => {
 
   useEffect(() => {
     if (state.message === "error") {
-      return toast.error("there was an error");
+      toast.error("there was an error");
     }
     if (state.message) {
-      return toast.success("task created");
+      toast.success("task created");
     }
   }, [state]);
 
